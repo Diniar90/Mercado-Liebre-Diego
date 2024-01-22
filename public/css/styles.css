@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    box-sizing: border-box;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h2{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+p{
+    font-size: 12px;
+    text-align: center;
+}
+
+div.top-header{
+    padding: 5%;
+}
+
+header{
+    align-items: center;
+    background-color: #EAC926;
+    width: 100vw;
+    padding: 20px;
+}
+
+nav{
+    display: none;
+}
+
+header div.logo{
+    width: 200px;
+}
+
+header div.logo{
+    padding: 10px;
+}
+header nav{
+    font-size: 12px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+.primer_renglon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price{
+    max-width: 30%;
+}
+
+.discount{
+    max-width: 70%;
+}
+
+article div.main-article{
+    width: 100%;
+}
+
+.price{
+    font-size: 18px;
+}
+
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.description{
+    display: none;
+}
+
+h3,
+.description{
+    color: #666;
+    padding-bottom: 10px;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin:auto;
+}
+
+main section article{
+    background-color: #fff;
+    padding:15px;
+    margin-bottom: 10px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+.main-article{
+    border-top: 1px solid #ebebeb;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+.main-article p{
+    text-align: start;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+footer{
+    margin: 40px;
+    
+}
+
+.iconos_footer{ 
+    font-size: 2em;
+    align-items: center;
+    margin-bottom: 10px;
+    color:#1259c3;
+
+}
+
+footer section {
+    text-align: center;
+    font-weight: bold;
+    color:#666
+}
+
+footer p {
+    text-align: center;
+    margin:5px 55px;
+}
+
+@media ( min-width: 768px ){
+    .top_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .logo{
+        width: 500px;
+    }
+
+    h2{
+        max-width: 350px;
+        text-align: right;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top:20px;
+    }
+
+    nav ul{
+        display: flex;
+    }
+
+    nav li{
+        margin: 0px 15px;
+    }
+
+    div.burger-menu{
+        display:none;
+    }
+
+    div#arrow{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: solid 5px   rgb(228, 228, 228);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: absolute;
+        top: 250px;
+        left: 10%;
+
+        animation: arrow 3s infinite;
+    }
+
+    .description{
+        display: block;
+    }
+
+    article {
+        box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+    }
+}
+
+@media ( min-width: 1024px ){
+    .top_header, nav{
+        display: flex;
+        max-width: 1200px;
+        margin:auto;
+        align-items: center;
+
+    }
+    
+    .logo{
+        width: 200px;
+    }
+
+    nav{
+        margin-top: 20px;
+    }
+
+    h2{
+        max-width: none;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    div.burger-menu{
+        display:none;
+    }
+
+    body{
+        background-size: 100vw;
+        
+    }
+
+    div#arrow{
+        left: 20%;
+    }
+
+    .description{
+        display: block;
+    }
+
+    article {
+        box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
+    }
+}

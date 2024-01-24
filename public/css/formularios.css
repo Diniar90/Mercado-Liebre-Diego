@@ -1,3 +1,44 @@
+.forms{
+    display:flex;
+
+    min-width: 40%;
+    height: 20px;
+    outline: none;
+    padding: 10px 5px;
+    align-items: center;
+
+   }
+
+.divisor{
+    width:100%;
+}
+
+.buscador{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 90%;
+    text-align: center;
+}
+
+.boton_busc{
+    border:none;
+    border-radius:5px;
+}
+
+.boton_busc i:hover{
+    background-color: rgba(0, 0, 255, 0.945);
+}
+
+.boton_busc i{
+    background-color: #0044AA;
+    border:none;
+    color: #FFF;
+    font-size: 19px;
+    padding:5px;
+    flex:10%;
+}
+
 .create_usuario
 {
     padding: 15px;
@@ -40,6 +81,24 @@
     border: none;
     padding:5px;
     border-radius: 5px;
-
 }
+
+.boton:hover{
+    background-color: rgba(0, 0, 255, 0.329);
+}
+
+
+
+
+.loguear{
+    padding: 15px;
+    background-color: rgb(221, 203, 203);
+    border-radius: 5px;
+    display: block;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+
 

@@ -18,4 +18,13 @@ app.get('/', (req, res) => {
     res.sendFile(htmlpath);
 });
 
+app.get('/register', (req, res) => {
+    let htmlpath2 = path.resolve(__dirname, './views/register.html');
+    res.sendFile(htmlpath2);
+});
+
+app.get('/login', (req, res) => {
+    let htmlpath3 = path.resolve(__dirname, './views/login.html');
+    res.sendFile(htmlpath3);
+});
 

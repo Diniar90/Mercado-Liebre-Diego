@@ -1,0 +1,45 @@
+.create_usuario
+{
+    padding: 15px;
+    background-color: rgb(221, 203, 203);
+    border-radius: 5px;
+    display: block;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.primer_bloque{
+    padding: 5px;
+    margin:5px;
+    display:block;
+}
+
+.enteros{
+    width: 100%;
+    border-radius: 5px;
+    border:none;
+}
+
+.segundo_bloque{
+    padding: 5px;
+    margin: 5px;
+    display: block;
+}
+
+.Botones{
+    display: flex;
+    padding:0px 100px;
+    justify-content: space-between;
+    margin-top:10px;
+}
+
+.boton{
+    background-color: #0044AA;
+    color: white;
+    border: none;
+    padding:5px;
+    border-radius: 5px;
+
+}
+

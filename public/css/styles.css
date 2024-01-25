@@ -157,6 +157,10 @@ main section article i,
     top:-15px;
 }
 
+article:hover i{
+    transition: transform 450ms;
+}
+
 .primer_renglon{
     display: flex;
     flex: 1;
@@ -199,11 +203,9 @@ h3,
     color: #666;
 }
 
-footer{
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom:0px;
+footer{    
     padding-bottom:20px;
+    padding-top:20px;
 }
 
 .iconos_footer{ 
@@ -211,6 +213,12 @@ footer{
     align-items: center;
     margin-bottom: 10px;
     color:#1259c3;
+    transition: color 450ms;
+}
+
+.iconos_footer:hover{
+    color:#0022AA;
+
 }
 
 footer section {
@@ -258,7 +266,8 @@ footer p {
         display:none;
     }
 
-    .description{
+
+    article:hover .description{
         display:block;
     }
 
@@ -294,12 +303,38 @@ footer p {
         display:none;
     }
     
-    .description{
+    article:hover .description{
         display:block;
+    }
+
+    article:hover i{
+        transform: rotate(-90deg)
     }
 
     article:hover {
         box-shadow : 0px 0px 10px rgb( 100 , 100 , 100 );
         
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-direction: column;
+
+    }
+
+    .renglon{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom:10px;
+    }
+
+    .bloq_foot_4{
+        padding:10px;
+        align-self: flex-start; 
+        padding-bottom:0px;
+        font-size: 15px;       
     }
 }

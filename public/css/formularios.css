@@ -27,7 +27,7 @@
 }
 
 .boton_busc i:hover{
-    background-color: rgba(0, 0, 255, 0.945);
+    background-color: #0022AA;
 }
 
 .boton_busc i{
@@ -84,11 +84,8 @@
 }
 
 .boton:hover{
-    background-color: rgba(0, 0, 255, 0.329);
+    background-color: #0022AA;
 }
-
-
-
 
 .loguear{
     padding: 15px;
